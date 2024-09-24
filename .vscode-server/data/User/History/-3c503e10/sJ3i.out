@@ -1,0 +1,25 @@
+[n0002:862505] *** Process received signal ***
+[n0002:862505] Signal: Segmentation fault (11)
+[n0002:862505] Signal code:  (128)
+[n0002:862505] Failing at address: (nil)
+[n0002:862506] *** Process received signal ***
+[n0002:862506] Signal: Segmentation fault (11)
+[n0002:862506] Signal code: Address not mapped (1)
+[n0002:862506] Failing at address: (nil)
+[n0002:862505] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x43090)[0x7f111ccf1090]
+[n0002:862505] [ 1] problem4(+0x17f5)[0x5604a99577f5]
+[n0002:862505] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3)[0x7f111ccd2083]
+[n0002:862505] [ 3] problem4(+0x11ce)[0x5604a99571ce]
+[n0002:862505] *** End of error message ***
+[n0002:862506] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x43090)[0x7ff80916f090]
+[n0002:862506] [ 1] problem4(+0x17f5)[0x564f5307c7f5]
+[n0002:862506] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3)[0x7ff809150083]
+[n0002:862506] [ 3] problem4(+0x11ce)[0x564f5307c1ce]
+[n0002:862506] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 862505 on node n0002 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------

@@ -1,0 +1,15 @@
+Data initialized by process 0
+Partial sum from processor 1 of total 5 processors is: 9996
+Send 9996 to processor 0 by processor 1
+Partial sum from processor 2 of total 5 processors is: 10183
+Send 10183 to processor 0 by processor 2
+Partial sum from processor 3 of total 5 processors is: 10459
+Send 10459 to processor 0 by processor 3
+Partial sum from processor 0 of total 5 processors is: 9403
+Received 9996 from processor 1
+Received 10183 from processor 2
+Received 10459 from processor 3
+Received 10226 from processor 4
+Total sum is 50267
+Partial sum from processor 4 of total 5 processors is: 10226
+Send 10226 to processor 0 by processor 4

@@ -1,0 +1,3 @@
+Process 1 received number 1 from process 0
+mpirun: Forwarding signal 18 to job
+slurmstepd-n0002: error: *** JOB 66802 ON n0002 CANCELLED AT 2024-08-30T16:03:20 ***
